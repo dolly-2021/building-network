@@ -39,6 +39,7 @@ import { MatNativeDateModule } from '@angular/material/core';
 import { SnackbarComponent } from './component/snackbar/snackbar.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ForgotPasswordDialogComponent } from './component/forgot-password-dialog/forgot-password-dialog.component';
+import { PostDialogComponent } from './component/post-dialog/post-dialog.component';
 //import { MatMomentDateModule } from "@angular/material-moment-adapter";
 
 @NgModule({
@@ -53,7 +54,8 @@ import { ForgotPasswordDialogComponent } from './component/forgot-password-dialo
     SettingsComponent,
     MessageComponent,
     SnackbarComponent,
-    ForgotPasswordDialogComponent
+    ForgotPasswordDialogComponent,
+    PostDialogComponent
   ],
   imports: [
     BrowserModule,

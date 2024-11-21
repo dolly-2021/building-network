@@ -1,8 +1,7 @@
-export class Country {
+export class Tag {
 	id: number;
 	name: string;
-	countryCode: string;
-	callingCode: string;
+	tagUseCounter: number;
 	dateCreated: string;
 	dateLastModified: string;
 }
